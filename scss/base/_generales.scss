@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@600&display=swap');
+
+/*reset*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+body{
+    font-family: 'Gabarito', cursive;
+}
+
+.carousel-inner{
+    img{
+        width: 100px;
+        height: 300px;
+    }
+}

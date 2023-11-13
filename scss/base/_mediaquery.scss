@@ -1,0 +1,31 @@
+@media screen and (max-width:1225px){
+    .sponsors{
+    display: none;
+}
+}
+@media screen and (max-width: 1267px) {
+    .tarjetas{
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
+}
+}
+@media screen and (max-width: 615px) {
+    .tarjetas{
+    display: grid;
+    grid-template-rows: 1fr ;
+    grid-template-columns: 1fr ;
+}
+}
+@media screen and (max-width: 970px) {
+    .grid-galeria{
+    display: grid;
+    grid-template-rows:  1fr;
+    grid-template-columns: 1fr;
+    }
+}
+@media screen and (max-width: 970px) {
+    footer{
+    top: 700px;
+    }
+}

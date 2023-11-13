@@ -1,0 +1,82 @@
+main{
+    .hero{
+        width: 100%;
+        height: 500px;
+        background-image: url("../img/carbono.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        border: 1px solid nth($colores, 5);
+        h2{
+            color: nth($colores, 5);
+            text-align: center;
+        }
+    }
+    .sponsors{
+        background-image: url(../img/carbono.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: 1px solid nth($colores, 5);
+        color: nth($colores, 5);
+        text-align: center;
+        h2{
+            color: nth($colores, 5);
+        }
+        img{
+            width: 1200px;
+            height: 500px;
+        }
+    }
+    .productos-destacados{
+        color: nth($colores, 5);
+        background-color: nth($colores, 1);
+        width: 100%;
+        height: 25px;
+        h3{
+            text-align: center;
+        }
+    }
+        .tarjetas{
+            width: 100%;
+            display: grid;
+            grid-template-columns: 25% 25% 25% 25%;
+            margin: 25px;
+            div{
+                border: 3px solid nth($colores, 1);
+                width: 300px;
+                height: 300px;
+                text-align: center;
+                h3{
+                    color: nth($colores, 1);
+                    font-size: 50px;
+                    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                    font-style: italic;
+                    text-decoration: none;
+                    font-size: 15px;
+                }
+                h4{
+                    color: nth($colores, 2);
+                }
+                img{
+                    width: 250px;
+                    height: 200px;
+                    border: 1px solid nth($colores, 4);
+                }
+                a{
+                    display: flex;
+                    justify-content: center;
+                    background-color: nth($colores, 3);
+                    color: white;
+                    text-decoration: none;
+                    list-style: none;  
+                }
+            }
+        }
+    .titulo-galeria{
+        h3{
+            background-color: nth($colores, 1); 
+        }
+    }
+    }    
+

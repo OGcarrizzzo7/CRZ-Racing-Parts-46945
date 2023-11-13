@@ -1,0 +1,27 @@
+/*-----LISTAS*/
+$colores:
+black,
+red,
+blue,
+grey,
+white;
+
+/*-extends-*/
+%flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjetas{
+    @extend %flex;
+}
+
+/*--mixins--*/
+@mixin flex($flex,){
+    display: flex;
+} 
+
+.tarjetas{
+    @include flex(flex);
+}

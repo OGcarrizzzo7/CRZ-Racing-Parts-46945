@@ -1,0 +1,21 @@
+footer{
+    background-color: nth($colores, 4);
+    position: relative;
+    top: 1100px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: left;
+    align-items: flex-end;   
+    h2{
+        text-align: left;
+    }
+    div{
+        a{
+        img{
+            width: 30px;
+            height: 30px;
+        }  
+        }
+    }
+}
