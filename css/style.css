@@ -50,7 +50,7 @@ header form{
 }
 
 header form div a img{
-    width:45%
+    width:100%
 }
 
 .titulo-pages img{
@@ -68,11 +68,10 @@ main{
 .hero{
     width: 100%;
     height: 500px;
-    background-image: url("../img/carbono.jpg");
+    background-image: url("../img/back.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
     border: 1px solid white;
 }
 
@@ -193,13 +192,83 @@ main{
 
 .propiedades-pages img{
     margin: 0 auto;
+    border: 5px solid white;
+    margin-top: 10px;
 }
+
+.propiedades-motor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.propiedades-motor h2{
+    color: white;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    text-decoration: none;
+    list-style: none;
+    text-align: left;
+}
+
+.propiedades-motor img{
+    margin: 0 auto;
+    width: 700px;
+}
+
+.propiedades-pistones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.propiedades-pistones h2{
+    color: white;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    text-decoration: none;
+    list-style: none;
+    text-align: left;
+}
+
+.propiedades-pistones img{
+    margin: 0 auto;
+    width: 700px;
+    border: 5px solid white;
+    margin-top: 10px;
+}
+
+.propiedades-racepak{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.propiedades-racepak h2{
+    color: white;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    text-decoration: none;
+    list-style: none;
+    text-align: left;
+}
+
+.propiedades-racepak img{
+    margin: 0 auto;
+    width: 800px;
+    border: 5px solid white;
+    margin-top: 10px;
+}
+
 /*footer*/
 
 footer{
     background-color: grey;
     position: relative;
-    top: 1100px;
+    top: 700px;
     left: 0;
     right: 0;
     bottom: 0;
@@ -213,6 +282,33 @@ footer h2{
 footer div a img{
     width: 30px;
     height: 30px;
+}
+
+.footer-pages{
+    background-color: grey;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    align-items: flex-end;   
+}
+
+.footer-pages h2{
+    text-align: left;
+}
+
+.footer-pages div a img{
+    width: 30px;
+    height: 30px;
+}
+
+.footer-motor{
+    top: 0;   
+}
+
+.footer-pistones{
+    top: 0;   
 }
 
 /*media query*/
