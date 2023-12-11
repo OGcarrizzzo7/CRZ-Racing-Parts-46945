@@ -66,6 +66,8 @@ main{
 }
 
 .hero{
+    display: flex;
+    align-items: center;
     width: 100%;
     height: 500px;
     background-image: url("../img/back.jpg");
@@ -78,6 +80,7 @@ main{
 .hero h2{
     color: white;
     text-align: center;
+    margin: auto;
 }
 
 .sponsors{
